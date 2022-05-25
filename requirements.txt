@@ -1,0 +1,9 @@
+Pillow==8.0.1
+h5py==2.10.0
+imageio==2.9.0
+torch==1.6.0
+matplotlib==3.3.4
+opencv-python==4.1.2.30
+scikit-image==0.16.2
+scipy==1.4.1
+tensorboardx==1.9
