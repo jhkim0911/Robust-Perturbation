@@ -41,7 +41,6 @@ class VOC(object):
         self.img_size = 300
 
         # visualization parameters
-        self.num_cam = 20
         self.xai_batch = 1
         self.box_width = 3
         self.v_seed = 777
