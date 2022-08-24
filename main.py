@@ -56,7 +56,12 @@ def main():
         print(" [*] Insertion and Deletion for %s started!" %(args.method))
         model.indel_game()
         print(" [*] Insertion and Deletion for %s finished!" %(args.method))
-
+    
+    elif args.phase == 'energy':
+        print(" [*] Energy-based Pointing Game for %s started!" %(args.method))
+        model.energy()
+        print(" [*] Energy-based Pointing Game for %s finished!" %(args.method))
+    
     elif args.phase == 'c_sen':
         print(" [*] Class Sensitivity for %s started!" %(args.method))
         model.c_sen()
