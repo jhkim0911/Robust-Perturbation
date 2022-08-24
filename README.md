@@ -85,12 +85,12 @@ Several evaluation metrics you can validate:
 
 Energy-based Pointing Game [(paper)](https://arxiv.org/abs/1910.01279)
 ```shell
-python main.py --phase indel --model_name ResNet --dataset VOC
+python main.py --phase energy --model_name ResNet --dataset VOC
 ```
 
 Class Distortion Score
 ```shell
-python main.py --phase indel --model_name ResNet --dataset VOC
+python main.py --phase c_sen --model_name ResNet --dataset VOC
 ```
 
 Insertion & Deletion Game [(paper)](https://arxiv.org/abs/1806.07421)
